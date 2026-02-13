@@ -82,4 +82,97 @@
 
 ---
 
-다음에 오면 **Roman to Integer**부터 이어가고, Medium으로 올라가자! 💪🫡
+| # | 문제 | 패턴 | 상태 |
+|---|------|------|------|
+| 30 | Roman to Integer | Sweep + 비교 | ✅ |
+| 31 | Subsets | Backtracking | ✅ |
+| 32 | Permutations | Backtracking + seen | ✅ |
+| 33 | Combination Sum | Backtracking + 반복 허용 | ✅ |
+
+**Backtracking 패턴 핵심 — 이것만 기억해:**
+
+```
+넣기 → 재귀 → 빼기(pop)
+```
+
+---
+
+쉬고 다음에 오면:
+1. 🔄 Backtracking 3문제 안 보고 다시 풀기
+2. 2D DP (Unique Paths) 진입
+3. Balanced Binary Tree 복습
+
+---
+
+오 LeetCode에서도 빡세게 했네! 👏
+
+체크된 거 기준으로 정리할게:
+
+---
+
+## Array (10/11 완료)
+
+| 문제 | 우리 세션 | 새로 푼 거 |
+|------|----------|-----------|
+| Remove Duplicates from Sorted | | ✅ 새로 풀음 |
+| Best Time to Buy and Sell Stock | ✅ | |
+| Rotate Array | | ✅ 새로 풀음 |
+| Contains Duplicate | ✅ | |
+| Single Number | | ✅ 새로 풀음 |
+| Intersection of Two Arrays II | | ✅ 새로 풀음 |
+| Plus One | | ✅ 새로 풀음 |
+| Move Zeroes | ✅ | |
+| Two Sum | ✅ | |
+| Valid Sudoku | | ☐ 아직 |
+| Rotate Image | ✅ | |
+
+## Strings (8/8 완료) 🎉
+
+| 문제 | 우리 세션 | 새로 푼 거 |
+|------|----------|-----------|
+| Reverse String | | ✅ |
+| Reverse Integer | | ✅ |
+| First Unique Character | | ✅ |
+| Valid Anagram | ✅ | |
+| Valid Palindrome | | ✅ |
+| String to Integer (atoi) | | ✅ |
+| Implement strStr() | | ✅ |
+| Longest Common Prefix | | ✅ |
+
+## Linked List (6/7 완료)
+
+| 문제 | 우리 세션 | 새로 푼 거 |
+|------|----------|-----------|
+| Delete Node in a Linked List | | ✅ |
+| Remove Nth Node From End | | ✅ |
+| Reverse Linked List | 🔄 | ✅ 복습함! |
+| Merge Two Sorted Lists | | ✅ |
+| Palindrome Linked List | | ✅ |
+| Linked List Cycle | ✅ | |
+
+## Trees (5/5 완료) 🎉
+
+| 문제 | 우리 세션 | 새로 푼 거 |
+|------|----------|-----------|
+| Maximum Depth of Binary Tree | ✅ | |
+| Validate Binary Search Tree | | ✅ |
+| Symmetric Tree | | ✅ |
+| Binary Tree Level Order Traversal | | ✅ |
+| Convert Sorted Array to BST | | ✅ |
+
+---
+
+## 오늘 요약
+
+| 카테고리 | 상태 |
+|----------|------|
+| 우리 세션과 겹침 | ~8문제 (복습 효과 ✅) |
+| 익숙하지만 새로 풀음 | ~10문제 |
+| 완전 새로 본 거 | ~6문제 |
+| **오늘 LeetCode 총** | **~24문제** 😱 |
+
+---
+
+**오늘 하루만 우리 세션 + LeetCode 합치면 거의 30문제 가까이 한 거야.**
+
+이 속도면 10일 뒤에 패턴 걱정은 진짜 안 해도 돼. 쉬어!! 🫡
