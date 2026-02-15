@@ -173,6 +173,173 @@
 
 ---
 
-**오늘 하루만 우리 세션 + LeetCode 합치면 거의 30문제 가까이 한 거야.**
+# 📌 이 세션 코테 연습 정리
 
-이 속도면 10일 뒤에 패턴 걱정은 진짜 안 해도 돼. 쉬어!! 🫡
+## 1️⃣ Array / Two Pointers / Sweep
+
+| 문제                           | 패턴                   |
+| ---------------------------- | -------------------- |
+| Two Sum                      | HashMap              |
+| Best Time to Buy/Sell Stock  | Min 추적               |
+| Move Zeroes                  | Two Pointer          |
+| Rotate Array                 | Reverse 3-step       |
+| Container With Most Water    | Two Pointer Greedy   |
+| Merge Sorted Array           | Backward Two Pointer |
+| Missing Number               | Sum / XOR            |
+| Product of Array Except Self | Prefix/Suffix        |
+| Plus One                     | Carry 처리             |
+| Single Number                | XOR                  |
+| Intersection of Arrays       | Counter              |
+| Pascal's Triangle            | 2D 생성                |
+
+**현재 숙련도:** ⭐⭐⭐
+→ 배열 기본기 충분히 안정권
+
+---
+
+## 2️⃣ String / Parsing / Sweep
+
+| 문제                            | 패턴                 |
+| ----------------------------- | ------------------ |
+| Reverse String                | Two Pointer        |
+| Reverse Integer               | Digit 처리           |
+| First Unique Character        | HashMap            |
+| Valid Anagram                 | Counter            |
+| Valid Palindrome              | Two Pointer        |
+| String to Integer (atoi)      | Parsing + Overflow |
+| strStr()                      | Naive / KMP        |
+| Longest Common Prefix         | Vertical scan      |
+| Longest Palindromic Substring | Center Expansion   |
+| Zigzag Conversion             | Row simulation     |
+| Roman to Integer              | Sweep 비교           |
+| Integer to Roman              | Greedy             |
+| Regex Matching                | 2D DP              |
+
+**현재 숙련도:** ⭐⭐~⭐⭐⭐
+→ 문자열 처리 + 파싱 상당히 많이 경험함
+
+---
+
+## 3️⃣ Linked List
+
+| 문제                     | 패턴            |
+| ---------------------- | ------------- |
+| Reverse Linked List    | 3 pointer     |
+| Remove Nth From End    | Fast-Slow     |
+| Delete Node            | 값 복사          |
+| Merge Two Sorted Lists | Pointer merge |
+| Palindrome Linked List | Reverse half  |
+| Linked List Cycle      | Fast-Slow     |
+
+**현재 숙련도:** ⭐⭐
+→ 기본 패턴은 거의 커버됨
+
+---
+
+## 4️⃣ Tree / DFS / BFS
+
+| 문제                          | 패턴               |
+| --------------------------- | ---------------- |
+| Max Depth                   | DFS              |
+| Invert Tree                 | DFS              |
+| Same Tree                   | 동시 DFS           |
+| Balanced Tree               | Sentinel         |
+| Diameter                    | DFS + global     |
+| Validate BST                | Range 전달         |
+| Symmetric Tree              | Mirror DFS       |
+| Level Order                 | BFS              |
+| Convert Sorted Array to BST | Divide & Conquer |
+
+**현재 숙련도:** ⭐⭐⭐
+→ 트리 기본 패턴 상당히 안정적
+
+---
+
+## 5️⃣ Graph / Grid
+
+| 문제                | 패턴               |
+| ----------------- | ---------------- |
+| Flood Fill        | BFS              |
+| Number of Islands | BFS              |
+| 01 Matrix         | Multi-source BFS |
+
+**현재 숙련도:** ⭐⭐~⭐⭐⭐
+
+---
+
+## 6️⃣ Dynamic Programming
+
+| 문제                | 패턴     |
+| ----------------- | ------ |
+| Climbing Stairs   | 1D DP  |
+| House Robber      | 선택/스킵  |
+| Coin Change       | 최소값 DP |
+| Maximum Subarray  | Kadane |
+| Regex Matching    | 2D DP  |
+| Unique Paths (예정) | 2D DP  |
+
+**현재 숙련도:** ⭐⭐
+→ 1D는 안정, 2D는 확장 중
+
+---
+
+## 7️⃣ Bit Manipulation
+
+| 문제               | 패턴         |
+| ---------------- | ---------- |
+| Hamming Weight   | n&(n-1)    |
+| Hamming Distance | XOR        |
+| Reverse Bits     | Shift      |
+| Power of Three   | Math Trick |
+| Missing Number   | XOR        |
+
+**현재 숙련도:** ⭐⭐
+→ 기본 비트 영역 상당히 커버
+
+---
+
+# 🔥 종합 패턴 커버 현황
+
+| 영역                | 상태    |
+| ----------------- | ----- |
+| Array 기본          | 안정권   |
+| Two Pointer       | 안정권   |
+| HashMap           | 안정권   |
+| Tree DFS/BFS      | 안정권   |
+| Linked List       | 안정권   |
+| Bit               | 안정권   |
+| 1D DP             | 안정권   |
+| 2D DP             | 확장 중  |
+| Backtracking      | 진입 완료 |
+| Sliding Window 심화 | 아직 부족 |
+| Topological Sort  | 아직    |
+| Heap              | 아직    |
+| Union-Find        | 아직    |
+
+---
+
+# 📊 지금 레벨을 냉정하게 말하면
+
+* Easy → 거의 자동
+* Medium → 50~60% 즉시 가능
+* Hard → 구조는 이해, 즉시 구현은 아직 어려움
+
+그리고 이게 70~80문제 구간의 정상 위치입니다.
+
+---
+
+# 🔥 제일 중요한 포인트
+
+당신이 지금 느끼는:
+
+> “처음 보면 못 푼다”
+
+이건 패턴이 부족해서가 아니라
+**패턴 연결 속도가 아직 완전히 자동화되지 않았기 때문**입니다.
+
+이미 커버한 영역은 생각보다 엄청 많습니다.
+
+---
+
+원하면 내가 지금 상태 기준으로
+**“빅테크 코테까지 남은 진짜 핵심 영역만 압축 로드맵”** 정리해줄까요?
