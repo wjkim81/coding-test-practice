@@ -3,7 +3,7 @@ from collections import deque
 
 DIRS = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
-def number_of_islands(grid: List[List[int]]) -> int:
+def number_of_islands(grid: List[List[str]]) -> int:
 
     if not grid or not grid[0]:
         return 0

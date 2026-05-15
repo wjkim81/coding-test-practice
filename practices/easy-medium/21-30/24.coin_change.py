@@ -1,4 +1,6 @@
 def coin_change(coins: list, amount: int) -> int:
+    if amount == 0:
+        return 0
     if not coins:
         return -1
     
