@@ -12,4 +12,7 @@ def linked_list_cycle(head: ListNode | None) -> bool:
         slow = slow.next
         fast = fast.next.next
 
+        if slow == fast:
+            return True
+
     return False
